@@ -1,8 +1,27 @@
 aid: huimei
 name: huimei
-description: huimei is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Huimei Technology (惠每科技) is a Chinese medical artificial intelligence
+  company whose core hospital-facing platform, Dr.Mayson, delivers clinical decision
+  support systems (CDSS) built on a curated medical knowledge base. Its product suite
+  spans specialty CDSS, single-disease quality management and reporting, medical-record
+  quality control, DRG/DIP insurance cost control, and VTE intelligent prevention,
+  helping hospitals raise clinical quality and safety. Huimei is a portfolio company
+  of Qiming Venture Partners. This profile was surfaced through the VC portfolio graph
+  and enriched by the API Evangelist pipeline; the company publishes no public developer
+  API program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/huimei/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.huimei.com/images/seo_banner.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Medical AI
+- Clinical Decision Support
+- CDSS
+- Artificial Intelligence
+- Health IT
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://huimei.com
+  url: https://www.huimei.com
+- type: About
+  url: https://www.huimei.com/aboutUs
+- type: DomainSecurity
+  url: security/huimei-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
